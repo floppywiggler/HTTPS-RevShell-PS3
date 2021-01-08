@@ -1,8 +1,10 @@
 # HTTPS-RevShell-PS3
 
-[![Category-tool]]() [![Powershell]]() [![Python]]() [![License]]()
-
 Revshell focused on red teams and pentesters with AMSI Bypass. This tool provides a reverse connection through the http/s protocol. It uses a covert channel to gain control over the victim machine through web requests and thus evade solutions such as IDS, IPS and AV.
+
+## Original Author
+This work is mosty entirely @3v4Si0N very well done job. I have made some customizations to make the code work in a few other scenarios than what was intened.
+ALL CREDITS OF THIS PROJECT GOES TO 3v4Si0N and his amazing work. You should fork his project rather than this: https://github.com/3v4Si0N/HTTP-revshell/
 
 # Features
 
@@ -90,4 +92,3 @@ HTTP-revshell should be used for authorized penetration testing and/or nonprofit
 ## Original Author
 This work is mosty entirely @3v4Si0N very well done job. I have made some customizations to make the code work in a few other scenarios than what was intened.
 ALL CREDITS OF THIS PROJECT GOES TO 3v4Si0N and his amazing work. You should fork his project rather than this: https://github.com/3v4Si0N/HTTP-revshell/
-
